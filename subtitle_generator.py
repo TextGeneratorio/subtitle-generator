@@ -26,7 +26,7 @@ def get_subtitles_for_audio_file(audio_file, output_file, output_filetype="srt")
     )
     results = response.text
     print(results)
-    with open(output_file, "w") as f:
+    with open(output_file, "wb") as f:
         f.write(results)
     print(f"Finished, written results to file {output_file}")
 

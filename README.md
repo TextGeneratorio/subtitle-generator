@@ -21,8 +21,13 @@ pip install -r requirements.txt
 ```
 
 
-usage
+Usage
 
 ```bash
-TEXT_GENERATOR_API_KEY=YOUR_API_KEY_HERE python subtitle_generator.py --video_url "https://www.youtube.com/watch?v=uJgzCQYVv44&ab_channel=LeviTheGiant" --output_file output.srt
+TEXT_GENERATOR_API_KEY=YOUR_API_KEY_HERE python subtitle_generator.py \
+    --video_url "https://www.youtube.com/watch?v=uJgzCQYVv44&ab_channel=LeviTheGiant" \
+    --output_file output.srt
 ```
+
+This creates a subtitles file that can be used in Youtube or other video platforms.
+This is extremely affordable and normally within the free tier of the Text Generator API.
